@@ -1,7 +1,9 @@
 clean
 book
 play a tenis
-pooper
-pop
-add memmber
+Pooper
+Rapadd memmber
 Master Python
+Read a book
+Pooper
+
