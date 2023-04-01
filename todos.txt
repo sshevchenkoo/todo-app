@@ -1,9 +1,6 @@
-clean
-book
+Сleanbook
 play a tenis
-Pooper
 Rapadd memmber
 Master Python
 Read a book
 Pooper
-
