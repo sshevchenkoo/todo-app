@@ -1,6 +1,10 @@
 from functions import get_todos, write_todos
 import time
+import os
 
+if not os.path.exists("todos.txt"):
+    with open("todos.txt", "w") as file:
+        pass
 
 now = time.strftime("%b %d, %Y %H:%M:%S")
 print("It is", now)
@@ -54,6 +58,8 @@ while True:
             print(message)
         except IndexError:
             print("There is not item with that number.")
+        except ValueError:
+            print("Choose item.")
 
     elif user_action.startswith("exit"):
         break
